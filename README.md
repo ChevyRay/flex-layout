@@ -10,7 +10,7 @@ Check out `example.html` to see what it can do with very little css.
 ### CSS Classes
 
 CSS Class | What it does
-- |
+--------- | ------------
 `noborder` | Removes padding & margins
 `fullscreen` | Add to body to fill screen (horizontally & vertically)
 `flex-x` | Layout children horizontally
@@ -23,3 +23,15 @@ CSS Class | What it does
 `center` | Center content horizontally & vertically, equivalent to adding both `center-x` and `center-y`
 `bottom` | Content aligns to the bottom
 `right` | Content aligns to the right
+
+### Sass ###
+
+If you are a [Sass](http://sass-lang.com/) user (you really should be!), you can add `_flex-layout.scss` to your project instead. Then, you can just add this line into your main sass file:
+
+    @import "flex-layout"
+
+### Issues & Improvements ###
+
+Please let me know if you use this, and if you can find any improvements! You can contact me at [happytrash@gmail.com](mailto:happytrash@gmail.com), or submit bugs and pull requests here.
+
+This is released under the **MIT License**.
