@@ -1,9 +1,9 @@
 ## Flex Layout
-A simple layout tool for webpages, only **a single css file**! It uses [flex boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) to create a dynamic layout that stretches to fit the area you provide it. It can even be used to create full-screen pages, and even handles vertical alignment (!!)
+A simple layout tool for webpages, only *a single css file*! It uses [flex boxes](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes) to create a dynamic layout that stretches to fit the area you provide it. It can even be used to create full-screen pages, and even handles vertical alignment (!!)
 
-Just add `flex-layout.css` or `flex-layout.min.css` as a stylesheet, and you can use some very simple classes to create complex layouts.
+Just add [flex-layout.css](flex-layout.css) or [flex-layout.min.css](flex-layout.min.css) as a stylesheet, and you can use some very simple classes to create complex layouts.
 
-Check out `example.html` to see what it can do with very little css.
+Check out [example.html](example.html) to see what it can do with very little css.
 
 ![Flex Layout Example](example.png)
 
