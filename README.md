@@ -11,7 +11,6 @@ Check out [example.html](example.html) to see what it can do with very little cs
 
 CSS Class | What it does
 --------- | ------------
-`noborder` | Removes padding & margins
 `fullscreen` | Add to body to fill screen (horizontally & vertically)
 `flex-x` | Layout children horizontally
 `flex-y` | Layout children vertically
