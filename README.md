@@ -26,7 +26,7 @@ CSS Class | What it does
 
 ### Sass ###
 
-If you are a [Sass](http://sass-lang.com/) user (you really should be!), you can add `_flex-layout.scss` to your project instead. Then, you can just add this line into your main sass file:
+If you are a [Sass](http://sass-lang.com/) user (you really should be!), you can add [_flex-layout.scss](_flex-layout.scss) to your project instead. Then, you can just add this line into your main sass file:
 
     @import "flex-layout"
 
