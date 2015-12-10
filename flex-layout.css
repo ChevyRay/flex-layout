@@ -1,0 +1,47 @@
+.fullscreen {
+    margin: 0;
+padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex-x {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-y, .center-y, .center {
+  display: flex;
+  flex-direction: column;
+}
+
+.fill {
+  flex: 1;
+}
+
+.scroll-x {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.scroll-y {
+  overflow-y: auto;
+  height: 0px;
+}
+
+.center-x, .center {
+  text-align: center !important;
+}
+
+.center-y, .center {
+  justify-content: center;
+  align-content: center;
+}
+
+.bottom {
+  align-content: flex-end;
+}
+
+.right {
+  text-align: right !important;
+}
