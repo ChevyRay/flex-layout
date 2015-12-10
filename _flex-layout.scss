@@ -49,6 +49,8 @@
 }
 
 .bottom {
+    @extend .flex-y;
+    justify-content: flex-end;
 	align-content: flex-end;
 }
 

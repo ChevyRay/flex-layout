@@ -1,6 +1,9 @@
+.noborder, .fullscreen {
+  margin: 0;
+  padding: 0;
+}
+
 .fullscreen {
-    margin: 0;
-padding: 0;
   width: 100vw;
   height: 100vh;
 }
@@ -10,7 +13,7 @@ padding: 0;
   flex-direction: row;
 }
 
-.flex-y, .center-y, .center {
+.flex-y, .center-y, .center, .bottom {
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +29,7 @@ padding: 0;
 
 .scroll-y {
   overflow-y: auto;
-  height: 0px;
+  height: 0;
 }
 
 .center-x, .center {
@@ -39,6 +42,7 @@ padding: 0;
 }
 
 .bottom {
+  justify-content: flex-end;
   align-content: flex-end;
 }
 
